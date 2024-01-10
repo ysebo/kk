@@ -13,8 +13,8 @@ Java 11 or newer
 Maven 3.6.3 or newer (or Gradle if you prefer)
 To run the project:
 
-Clone the repository: git clone https://github.com/your-username/your-project-name.git
-Navigate to the project directory: cd your-project-name
+Clone the repository: git clone https://github.com/ysebo/kk
+Navigate to the project directory: cd kk
 Build the project: mvn clean install
 Run the application: mvn spring-boot:run
 ## Features (so far):
