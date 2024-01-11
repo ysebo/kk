@@ -77,6 +77,7 @@ public class UserServiceImpl implements UserService {
 
 
 
+
     @Override
     public void register(UserRequest userRequest) {
         if (userRequest.getName().contains("@"))

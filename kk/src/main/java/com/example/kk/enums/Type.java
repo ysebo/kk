@@ -1,5 +1,5 @@
 package com.example.kk.enums;
 
 public enum Type {
-    SHOES, POTATO, BACKBACK
+    Shoes, Food , Hardware, Pet , Other
 }

@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 @Table(name = "users_table")
@@ -16,5 +18,6 @@ public class User {
     private Integer age ;
     private String course ;
     private String university;
-
+    @OneToMany(cascade = CascadeType.ALL)
+    List<Product> userProducts;
 }

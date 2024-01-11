@@ -15,7 +15,7 @@ public class ProductRequest {
     @Enumerated(EnumType.STRING)
     private Type type;
     private String description;
-    private Integer prize ;
+    private Integer price ;
     private String created_date;
 
 }
